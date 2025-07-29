@@ -134,7 +134,7 @@ def translate(mrna, start_present, end_present):
 
 
 def runSequence():
-    img = "/home/melani/Documents/projects/DNA/Transcribe_Translate.png"
+    img = "Transcribe_Translate.png"
     msgbox(msg="Welcome to the DNA transcriber and translator!", image=img)
     sequence = enterbox("Enter DNA sequence here: ")
     mrna = transcription(sequence)
